@@ -31,7 +31,7 @@ le code pour mettre en le multi-stage build.
 FROM alpine:3.18 AS builder
 
 # Installer Python et outils de build
-RUN apk add --no-cache python3 py3-pip py3-venv build-base libffi-dev
+RUN apk add --no-cache python3 py3-pip build-base libffi-dev
 
 # Créer un venv propre
 RUN python3 -m venv /venv
