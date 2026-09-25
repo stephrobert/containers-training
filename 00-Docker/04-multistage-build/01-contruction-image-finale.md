@@ -13,7 +13,7 @@
 ## 📁 Structure du projet
 
 ```bash
-05-multistage-build/
+04-multistage-build/
 ├── app/
 │   ├── main.py
 │   └── requirements.txt
@@ -87,6 +87,13 @@ fastapi-optimise     v2        ac5a57858d17   48 minutes ago   236MB
 fastapi-optimise     v3        ac5a57858d17   48 minutes ago   236MB
 fastapi-auto         latest    7e2e921dad53   53 minutes ago   678MB
 ```
+
+💡 Vos tailles seront sans doute un peu différentes : elles varient avec les
+versions des paquets installés. Comparez surtout les images entre elles.
+Si votre Docker utilise le stockage d'images containerd, `docker images`
+affiche deux colonnes, `DISK USAGE` et `CONTENT SIZE`, à la place de `SIZE`.
+`DISK USAGE` additionne l'image décompressée et ses couches compressées : ce
+chiffre est plus élevé que ceux ci-dessus, et ne se compare pas avec eux.
 
 2️⃣ **Run + test de l’API** :
 
