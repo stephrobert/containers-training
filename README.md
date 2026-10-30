@@ -1,3 +1,18 @@
+<!-- renvoi-vers-le-nouveau-depot -->
+> **Ce dépôt est archivé.** Les labs de conteneurisation ont déménagé ici :
+>
+> ### → [stephrobert/containers-dsoxlab-training](https://github.com/stephrobert/containers-dsoxlab-training)
+>
+> Le nouveau dépôt porte des labs vérifiables, joués et mesurés par le
+> framework [`dsoxlab`](https://github.com/stephrobert/dsoxlab) : chacun part
+> d'un état cassé, et sa note se lit sur l'état du système, jamais sur les
+> commandes tapées.
+>
+> Rien n'est repris ici : l'historique de ce dépôt reste consultable tel quel,
+> et tout le travail continue là-bas.
+
+---
+
 # Conteneurisation - Du Docker aux orchestrateurs
 
 Ce dépôt propose un parcours progressif pour comprendre et maîtriser la
